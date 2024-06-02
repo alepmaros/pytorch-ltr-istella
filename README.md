@@ -2,7 +2,7 @@
 
 Quick little project to create a Deep NN model for Learn to Rank using Pytorch and the Istella dataset
 
-You can get the dataset here: http://quickrank.isti.cnr.it/istella-dataset/
+You can get the dataset here: https://istella.ai/datasets/letor-dataset/
 
 In this repository there's two main files:
 
