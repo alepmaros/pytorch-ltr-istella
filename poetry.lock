@@ -3028,6 +3028,27 @@ url = "https://download.pytorch.org/whl/cu121"
 reference = "pytorch_gpu121"
 
 [[package]]
+name = "torch-tb-profiler"
+version = "0.4.3"
+description = "PyTorch Profiler TensorBoard Plugin"
+optional = false
+python-versions = ">=3.6.2"
+files = [
+    {file = "torch_tb_profiler-0.4.3-py3-none-any.whl", hash = "sha256:207a49b05572dd983e4ab29eb5e0fcadd60374a8f93c78ec638217e8d18788dc"},
+    {file = "torch_tb_profiler-0.4.3.tar.gz", hash = "sha256:8b8d29b2de960b3c4423087b23cec29beaf9ac3a8c7b046c18fd25b218f726b1"},
+]
+
+[package.dependencies]
+pandas = ">=1.0.0"
+tensorboard = ">=1.15,<2.1.0 || >2.1.0"
+
+[package.extras]
+blob = ["azure-storage-blob"]
+gs = ["google-cloud-storage"]
+hdfs = ["fsspec", "pyarrow"]
+s3 = ["boto3"]
+
+[[package]]
 name = "torchvision"
 version = "0.18.0+cu121"
 description = "image and video datasets and models for torch deep learning"
@@ -3274,4 +3295,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "d97bf49e8e416bc4f1c90bad6811ca6ef0cd2bdfdb932aa02f2772e333a63390"
+content-hash = "2d63e1311faee7ab7738bf27195299401e308157e2dbbaeba77673d5576ca56e"

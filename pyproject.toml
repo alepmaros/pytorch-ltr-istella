@@ -19,6 +19,7 @@ tensorboard = "^2.16.2"
 scikit-learn = "^1.5.0"
 torch = {version = "^2.3.0+cu121", source = "pytorch_gpu121"}
 torchvision = {version = "^0.18.0+cu121", source = "pytorch_gpu121"}
+torch-tb-profiler = "^0.4.3"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.4.2"
